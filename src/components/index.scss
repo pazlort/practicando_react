@@ -1,0 +1,49 @@
+@import "~bootstrap/scss/bootstrap.scss";
+
+.nav-link{
+  color: #ffa69e;
+  text-transform: uppercase;
+  font-size: 1em;
+};
+
+.nav-link:focus, .nav-link:hover {
+  color: #5e6472;
+};
+
+.btn-outline-danger{
+  --bs-btn-color: #ffa69e;
+  --bs-btn-border-color: none;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #ffa69e;
+  --bs-btn-hover-border-color: #ffa69e;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #ffa69e;
+  --bs-btn-disabled-color: #ffa69e;
+};
+
+.bi-1-circle-fill{
+  color: #aed9e0;
+  vertical-align:super;
+};
+
+li{
+  @media (max-width: 991px) {
+    width: 100%;
+    text-align: center;
+  };
+};
+
+.navbar-brand{
+  img{
+    @media (max-width: 310px) {
+      width: 50%;
+      height: 100%;
+    };
+  };
+};
+
+.container-fluid{
+  @media (max-width: 991px) {
+    flex-direction:row;
+  };
+};
