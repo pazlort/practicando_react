@@ -6,22 +6,24 @@ import NavbarBootstrap from 'react-bootstrap/Navbar';
 
 function Navbar() {
   return (
-    <NavbarBootstrap bg="light" expand="lg">
-      <Container>
-        <NavbarBootstrap.Brand href="#home">
+    <NavbarBootstrap bg="light" expand="lg" className='contenedor'>
+      <Container className="success d-flex flex-row">
+        <NavbarBootstrap.Toggle aria-controls="basic-Navbar-nav" />
+        <NavbarBootstrap.Brand className="text-center" href="#home">
           <img src={logo} alt="Logo" width="200" height="70" className="d-inline-block align-text-top"></img>
         </NavbarBootstrap.Brand>
-        <NavbarBootstrap.Toggle aria-controls="basic-Navbar-nav" />
         <NavbarBootstrap.Collapse id="basic-Navbar-nav">
-          <Nav className="me-auto">
+          <Nav className="me-auto text-center">
             <Nav.Link href="#velasVengalas">Velas y bengalas</Nav.Link>
             <Nav.Link href="#globos">Globos</Nav.Link>
             <Nav.Link href="#banderines">Banderines</Nav.Link>
             <Nav.Link href="#adornosTortas">Adornos para tortas</Nav.Link>
           </Nav>
         </NavbarBootstrap.Collapse>
+        <div className='shoping cart cart' id="carrito">
+          <CartWidget/>
+        </div>
       </Container>
-      <CartWidget/>
     </NavbarBootstrap>
   );
 }

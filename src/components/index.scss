@@ -30,25 +30,10 @@
   vertical-align:super;
 };
 
-li{
+.contenedor{
   @media (max-width: 991px) {
-    width: 100%;
-    text-align: center;
+    #carrito{
+      display: -webkit-inline-flex;
+    }
   };
-};
-
-.navbar-brand{
-  img{
-    @media (max-width: 310px) {
-      width: 50%;
-      height: 100%;
-    };
-  };
-};
-
-.container-fluid{
-  @media (max-width: 991px) {
-    flex-direction:row;
-  };
-};
-
+}
