@@ -5,7 +5,7 @@ function App() {
   return (
     <>
       <Navbar/>
-      <ItemListContainer greeting = "Bienvenidos a Cotillón Deconfetti"/>
+      <ItemListContainer greeting = "Bienvenidos a Cotillón"/>
     </>
   );
 }
