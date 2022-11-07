@@ -1,12 +1,12 @@
-let resoult = true
+let result = true
 
 export const customFetch = (time, task) => {
-    return new Promise((resolve, reject,err) => {
+    return new Promise((resolve, reject) => {
         setTimeout(() => {
-            if (resoult) {
+            if (result) {
                 resolve(task)
             } else {
-                reject(err)
+                reject("Hay un error")
             }
         }, time)
     })

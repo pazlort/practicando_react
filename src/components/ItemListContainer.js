@@ -1,16 +1,30 @@
-import ItemDetailContainer from "./ItemDetailContainer";
-import logo from '../img/logo.png';
+import {customFetch} from '../utils/customFetch';
+import products from '../utils/productos';
+import { useEffect,useState } from "react";
+import { useParams } from 'react-router-dom';
+import ItemList from "./ItemList"
+import { Container } from 'react-bootstrap';
+import Row from 'react-bootstrap/Row';
 
+const ItemListContainer = () => {
+    const [productos, setProductos] = useState([])
+    let { idCategory } = useParams();
 
-const ItemListContainer = (props) => {
+    useEffect(() => {
+        customFetch(2000, products.filter(product => {
+            if (idCategory === undefined) return product;
+            return product.categoryId === parseInt(idCategory)
+        }))
+            .then(result => setProductos(result))
+            .catch(err => console.log(err))
+    }, [productos]);
+
     return (
-        <>
-            <div className="home">
-                <h1 className='title'>{props.greeting}</h1>
-                <img alt="Imagen de inicio" src={logo} class="homeImage" />
-            </div>
-            <ItemDetailContainer/>
-        </>
+        <Container>
+            <Row>
+                <ItemList product={productos}/>
+            </Row>
+        </Container>
     );
 };
 
