@@ -38,7 +38,7 @@ const products = [
   },
   {
     id: 4,
-    name: "Globos Perlados 12 Pulgadas X25 Unidades", 
+    name: "Globos Perlados 12 Pulgadas X25u", 
     images: ["https://http2.mlstatic.com/D_NQ_NP_2X_929376-MLA41513196868_042020-F.webp"], 
     categoryId: 1,
     category: {
@@ -50,7 +50,7 @@ const products = [
   },
   {
     id: 5,
-    name: "Globos Chrome Cromados Crome Brillantes X50 Uni 10¨pulgadas", 
+    name: "Globos Cromados Brillantes X50u 10¨pulgadas", 
     images: ["https://http2.mlstatic.com/D_NQ_NP_2X_755680-MLA50315515984_062022-F.webp"], 
     categoryId: 1,
     category: {
@@ -62,7 +62,7 @@ const products = [
   },
   {
     id: 6,
-    name: "Set 10 Globo Halloween Deco345 Calabaza Esqueleto Fantasma", 
+    name: "Set 10 Globo Halloween Calabaza Esqueleto Fantasma", 
     images: ["https://http2.mlstatic.com/D_NQ_NP_791865-MLA52094030498_102022-O.webp"], 
     categoryId: 1,
     category: {
@@ -74,7 +74,7 @@ const products = [
   },
   {
     id: 7,
-    name: "Set 10 Globo Halloween Deco345 Calabaza Esqueleto Fantasma", 
+    name: "Set De 10 Globos Transparentes Con Confetti y Perlados", 
     images: ["https://http2.mlstatic.com/D_NQ_NP_871045-MLA44766236272_012021-O.webp"], 
     categoryId: 1,
     category: {
@@ -86,7 +86,7 @@ const products = [
   },
   {
     id: 8,
-    name: "Globos Perlados 12 Pulgadas X 25 Un", 
+    name: "Globos Perlados 12 Pulgadas X25u", 
     images: ["https://http2.mlstatic.com/D_NQ_NP_972312-MLA51264958206_082022-O.webp"], 
     categoryId: 1,
     category: {
@@ -122,7 +122,7 @@ const products = [
   },
   {
     id: 11,
-    name: "Banderin Guirnalda Colores Pasteles Feliz Cumple Decoracion", 
+    name: "Banderin Guirnalda Colores Pasteles Feliz Cumple", 
     images:  ["https://http2.mlstatic.com/D_NQ_NP_884442-MLA47482230381_092021-O.webp"], 
     categoryId: 2,
     category: {
@@ -174,7 +174,7 @@ const products = [
   },
   {
     id: 15,
-    name: "Banderin Guirnalda Argentina 2,80 Cm Mundial Scaloneta Qatar", 
+    name: "Banderin Guirnalda Argentina 2,80 Cm", 
     images:  ["https://http2.mlstatic.com/D_NQ_NP_902072-MLA52143980253_102022-O.webp"], 
     categoryId: 2,
     category: {
@@ -252,7 +252,7 @@ const products = [
   },
   {
     id: 21,
-    name: "Adorno Para Torta En Telgopor Y Goma Eva -5 Soles Cotillón ", 
+    name: "Adorno Para Torta En Telgopor Y Goma Eva", 
     images:  ["https://http2.mlstatic.com/D_NQ_NP_780281-MLA46836670172_072021-O.webp"], 
     categoryId: 3,
     category: {
@@ -291,7 +291,7 @@ const products = [
   },
   {
     id: 24,
-    name: " Adorno P. Torta River Plate Julian Alvarez + Bengala + Vela", 
+    name: " Adorno Para Torta River Plate + Bengala + Vela", 
     images:  ["https://http2.mlstatic.com/D_NQ_NP_814444-MLA51664303976_092022-O.webp"], 
     categoryId: 3,
     category: {
@@ -317,7 +317,7 @@ const products = [
   },
   {
     id: 26,
-    name: " Cake Topper Bluey Adorno Torta Cumpleaños", 
+    name: "Cake Topper Bluey Adorno Torta Cumpleaños", 
     images:  ["https://http2.mlstatic.com/D_NQ_NP_754815-MLA50836471343_072022-O.webp"], 
     categoryId: 3,
     category: {
@@ -330,7 +330,7 @@ const products = [
   },
   {
     id: 27,
-    name: " Adorno Para Torta Con Luz Mickey Mouse", 
+    name: "Adorno Para Torta Con Luz Mickey Mouse", 
     images:  ["https://http2.mlstatic.com/D_NQ_NP_747270-MLA47168603107_082021-O.webp"], 
     categoryId: 3,
     category: {
@@ -356,7 +356,7 @@ const products = [
   },
   {
     id: 29,
-    name: "Mariposa Para Torta Topper Por 6 Unirosa Gold Plata Dorado", 
+    name: "Mariposa Para Torta Topper x6u rosa Gold Plata Dorado", 
     images:  ["https://http2.mlstatic.com/D_NQ_NP_667238-MLA49804447103_042022-O.webp"], 
     categoryId: 3,
     category: {
@@ -382,11 +382,11 @@ const products = [
   },
   {
     id: 31,
-    name: "Velas Finitas Gibreadas Brillo X 12 Unidades Varios Colores", 
+    name: "Velas Finitas Gibreadas Brillo X12u Varios Colores", 
     images:  ["https://http2.mlstatic.com/D_NQ_NP_662924-MLA46045201646_052021-O.webp"],
     categoryId: 4,
     category: {
-      name: "velasYvengalas",
+      name: "velasYbengalas",
       id: 4
     },
     price: "ARS 685",
@@ -395,11 +395,11 @@ const products = [
   },
     {
     id: 32,
-    name: "Vela Numérica Plata Para Torta Cumpleaños", 
+    name: "Vela Numérica Plata", 
     images:  ["https://http2.mlstatic.com/D_NQ_NP_954613-MLA49747561018_042022-O.webp"],
     categoryId: 4,
     category: {
-      name: "velasYvengalas",
+      name: "velasYbengalas",
       id: 4
     },
     price: "ARS 260",
@@ -408,11 +408,11 @@ const products = [
   },
   {
     id: 33,
-    name: "Velas Finitas 17cm Blister Por 24 Unidades Varios Colores", 
+    name: "Velas Finitas 17cm Blister x24u Varios Colores", 
     images:  ["https://http2.mlstatic.com/D_NQ_NP_708846-MLA45631813218_042021-O.webp"],
     categoryId: 4,
     category: {
-      name: "velasYvengalas",
+      name: "velasYbengalas",
       id: 4
     },
     price: "ARS 387",
@@ -425,7 +425,7 @@ const products = [
     images:  ["https://http2.mlstatic.com/D_NQ_NP_856119-MLA46013939039_052021-O.webp"],
     categoryId: 4,
     category: {
-      name: "velasYvengalas",
+      name: "velasYbengalas",
       id: 4
     },
     price: "ARS 335",
@@ -434,11 +434,11 @@ const products = [
   },
   {
     id: 35,
-    name: "Pack De 4 - Cumpleaños Fiestas Tortas", 
+    name: "Pack De 4 bengalas colores varios", 
     images:  ["https://http2.mlstatic.com/D_NQ_NP_800368-MLA43453214518_092020-O.webp"],
     categoryId: 4,
     category: {
-      name: "velasYvengalas",
+      name: "velasYbengalas",
       id: 4
     },
     price: "ARS 500",
@@ -451,7 +451,7 @@ const products = [
     images:  ["https://http2.mlstatic.com/D_NQ_NP_621385-MLA49806563145_042022-O.webp"],
     categoryId: 4,
     category: {
-      name: "velasYvengalas",
+      name: "velasYbengalas",
       id: 4
     },
     price: "ARS 300",
@@ -460,11 +460,11 @@ const products = [
   },
   {
     id: 37,
-    name: "Pack Set Velas Magicas Cumpleaños X 10 Unidades Multicolor", 
+    name: "Pack Set Velas Magicas Cumpleaños X10u Multicolor", 
     images: ["https://http2.mlstatic.com/D_NQ_NP_833207-MLA50191919630_062022-O.webp"],
     categoryId: 4,
     category: {
-      name: "velasYvengalas",
+      name: "velasYbengalas",
       id: 4
     },
     price: "ARS 350",
@@ -477,7 +477,7 @@ const products = [
     images:  ["https://http2.mlstatic.com/D_NQ_NP_720772-MLA49954587583_052022-O.webp"],
     categoryId: 4,
     category: {
-      name: "velasYvengalas",
+      name: "velasYbengalas",
       id: 4
     },
     price: "ARS 480",
@@ -486,11 +486,11 @@ const products = [
   },
   {
     id: 39,
-    name: "Vela Dorada Números N°4 (12 Cm.) X Unidad", 
+    name: "Vela Dorada Números N°4 (12 Cm.) X1u", 
     images:  ["https://http2.mlstatic.com/D_NQ_NP_713666-MLA49983098758_052022-O.webp"],
     categoryId: 4,
     category: {
-      name: "velasYvengalas",
+      name: "velasYbengalas",
       id: 4
     },
     price: "ARS 317",
@@ -503,7 +503,7 @@ const products = [
     images:  ["https://http2.mlstatic.com/D_NQ_NP_906745-MLA31113132037_062019-O.webp"],
     categoryId: 4,
     category: {
-      name: "velasYvengalas",
+      name: "velasYbengalas",
       id: 4
     },
     price: "ARS 936",

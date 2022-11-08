@@ -1,19 +1,30 @@
-import React from 'react'
+import React from "react";
 import Card from "react-bootstrap/Card";
-import ItemCount from './ItemCount';
+import ItemCount from "../containers/ItemCount";
+import Col from "react-bootstrap/Col";
+import { Container } from "react-bootstrap";
+import Row from "react-bootstrap/Row";
 
 export const ItemDetail = ({ item }) => {
   return (
-      <Card key={item.id}>
-            <Card.Img variant="top" className='imagenProduct' src={item.images} />
+    <Card key={item.id} className="detalleProducto">
+      <Container>
+        <Row>
+          <Col xs={12} md={4} sm={6} lg={8}>
+            <Card.Img variant="top" className="imagenProduct" src={item.images} />
+          </Col>
+          <Col xs={12} md={4} sm={6} lg={4}>
             <Card.Body>
-                <Card.Title>{item.name}</Card.Title>
-                <Card.Text className="stock">Stock: {item.stock} u.</Card.Text>
-                <Card.Text className="precio"> Precio: {item.price}</Card.Text>
+              <Card.Title>{item.name}</Card.Title>
+              <Card.Text className="stock">Stock: {item.stock} u.</Card.Text>
+              <Card.Text className="precio"> Precio: {item.price}</Card.Text>
+              <ItemCount/>
             </Card.Body>
-            <ItemCount/>
-      </Card>
-  )
-}
+          </Col>
+        </Row>
+      </Container>
+    </Card>
+  );
+};
 
-export default ItemDetail
+export default ItemDetail;

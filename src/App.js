@@ -1,10 +1,10 @@
 import {BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import ItemListContainer from "./components/ItemListContainer";
-import ItemDetailContainer from "./components/ItemDetailContainer";
+import ItemListContainer from "./containers/ItemListContainer";
+import ItemDetailContainer from "./containers/ItemDetailContainer";
 
 const App = () => {
-  return (
+  return(
     <BrowserRouter>
       <Navbar/>
       <Routes>
@@ -14,6 +14,6 @@ const App = () => {
       </Routes>
     </BrowserRouter>
   );
-}
+};
 
 export default App;
