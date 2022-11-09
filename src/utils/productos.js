@@ -3,6 +3,7 @@ const products = [
     id: 1,
     name: "Bolsa De 25 Globos Perlados Nro 12", 
     images: ["https://http2.mlstatic.com/D_NQ_NP_2X_973759-MLA47066303527_082021-F.webp"], 
+    detail: "Cupcake ipsum dolor sit amet jelly beans jujubes. I love cupcake cotton candy lollipop toffee tiramisu I love toffee sesame snaps. I love I love cupcake I love cake. Croissant jelly-o cupcake biscuit sweet gummies. Tart pastry cake danish pudding. Dragée lemon drops I love wafer gummi bears. Oat cake chocolate bar bonbon marzipan I love. Icing danish liquorice cotton candy I love dragée.",
     categoryId: 1,
     category: {
       name: "globos",
@@ -16,6 +17,7 @@ const products = [
     id: 2,
     name: "Globos Impresos Personajes Temáticos X10u Aptos Aire O Helio", 
     images: ["https://http2.mlstatic.com/D_NQ_NP_627645-MLA51496559291_092022-O.webp"], 
+    detail: "Cupcake ipsum dolor sit amet jelly beans jujubes. I love cupcake cotton candy lollipop toffee tiramisu I love toffee sesame snaps. I love I love cupcake I love cake. Croissant jelly-o cupcake biscuit sweet gummies. Tart pastry cake danish pudding. Dragée lemon drops I love wafer gummi bears. Oat cake chocolate bar bonbon marzipan I love. Icing danish liquorice cotton candy I love dragée.",
     categoryId: 1,
     category: {
       name: "globos",
@@ -28,6 +30,7 @@ const products = [
     id: 3,
     name: "Set 14 Globos Metalizados Estrella Corazón Confetti Perlados", 
     images: ["https://http2.mlstatic.com/D_NQ_NP_2X_604558-MLA46499081931_062021-F.webp"], 
+    detail: "Cupcake ipsum dolor sit amet jelly beans jujubes. I love cupcake cotton candy lollipop toffee tiramisu I love toffee sesame snaps. I love I love cupcake I love cake. Croissant jelly-o cupcake biscuit sweet gummies. Tart pastry cake danish pudding. Dragée lemon drops I love wafer gummi bears. Oat cake chocolate bar bonbon marzipan I love. Icing danish liquorice cotton candy I love dragée.",
     categoryId: 1,
     category: {
       name: "globos",
@@ -40,6 +43,7 @@ const products = [
     id: 4,
     name: "Globos Perlados 12 Pulgadas X25u", 
     images: ["https://http2.mlstatic.com/D_NQ_NP_2X_929376-MLA41513196868_042020-F.webp"], 
+    detail: "Cupcake ipsum dolor sit amet jelly beans jujubes. I love cupcake cotton candy lollipop toffee tiramisu I love toffee sesame snaps. I love I love cupcake I love cake. Croissant jelly-o cupcake biscuit sweet gummies. Tart pastry cake danish pudding. Dragée lemon drops I love wafer gummi bears. Oat cake chocolate bar bonbon marzipan I love. Icing danish liquorice cotton candy I love dragée.",
     categoryId: 1,
     category: {
       name: "globos",
@@ -52,6 +56,7 @@ const products = [
     id: 5,
     name: "Globos Cromados Brillantes X50u 10¨pulgadas", 
     images: ["https://http2.mlstatic.com/D_NQ_NP_2X_755680-MLA50315515984_062022-F.webp"], 
+    detail: "Cupcake ipsum dolor sit amet jelly beans jujubes. I love cupcake cotton candy lollipop toffee tiramisu I love toffee sesame snaps. I love I love cupcake I love cake. Croissant jelly-o cupcake biscuit sweet gummies. Tart pastry cake danish pudding. Dragée lemon drops I love wafer gummi bears. Oat cake chocolate bar bonbon marzipan I love. Icing danish liquorice cotton candy I love dragée.",
     categoryId: 1,
     category: {
       name: "globos",
@@ -64,6 +69,7 @@ const products = [
     id: 6,
     name: "Set 10 Globo Halloween Calabaza Esqueleto Fantasma", 
     images: ["https://http2.mlstatic.com/D_NQ_NP_791865-MLA52094030498_102022-O.webp"], 
+    detail: "Cupcake ipsum dolor sit amet jelly beans jujubes. I love cupcake cotton candy lollipop toffee tiramisu I love toffee sesame snaps. I love I love cupcake I love cake. Croissant jelly-o cupcake biscuit sweet gummies. Tart pastry cake danish pudding. Dragée lemon drops I love wafer gummi bears. Oat cake chocolate bar bonbon marzipan I love. Icing danish liquorice cotton candy I love dragée.",
     categoryId: 1,
     category: {
       name: "globos",
@@ -76,6 +82,7 @@ const products = [
     id: 7,
     name: "Set De 10 Globos Transparentes Con Confetti y Perlados", 
     images: ["https://http2.mlstatic.com/D_NQ_NP_871045-MLA44766236272_012021-O.webp"], 
+    detail: "Cupcake ipsum dolor sit amet jelly beans jujubes. I love cupcake cotton candy lollipop toffee tiramisu I love toffee sesame snaps. I love I love cupcake I love cake. Croissant jelly-o cupcake biscuit sweet gummies. Tart pastry cake danish pudding. Dragée lemon drops I love wafer gummi bears. Oat cake chocolate bar bonbon marzipan I love. Icing danish liquorice cotton candy I love dragée.",
     categoryId: 1,
     category: {
       name: "globos",
@@ -88,6 +95,7 @@ const products = [
     id: 8,
     name: "Globos Perlados 12 Pulgadas X25u", 
     images: ["https://http2.mlstatic.com/D_NQ_NP_972312-MLA51264958206_082022-O.webp"], 
+    detail: "Cupcake ipsum dolor sit amet jelly beans jujubes. I love cupcake cotton candy lollipop toffee tiramisu I love toffee sesame snaps. I love I love cupcake I love cake. Croissant jelly-o cupcake biscuit sweet gummies. Tart pastry cake danish pudding. Dragée lemon drops I love wafer gummi bears. Oat cake chocolate bar bonbon marzipan I love. Icing danish liquorice cotton candy I love dragée.",
     categoryId: 1,
     category: {
       name: "globos",
@@ -100,6 +108,7 @@ const products = [
     id: 9,
     name: "10 Globos Burbuja Cristal Con Luz Transparente Led Luminoso", 
     images:  ["https://http2.mlstatic.com/D_NQ_NP_2X_682878-MLA46797730023_072021-F.webp"], 
+    detail: "Cupcake ipsum dolor sit amet jelly beans jujubes. I love cupcake cotton candy lollipop toffee tiramisu I love toffee sesame snaps. I love I love cupcake I love cake. Croissant jelly-o cupcake biscuit sweet gummies. Tart pastry cake danish pudding. Dragée lemon drops I love wafer gummi bears. Oat cake chocolate bar bonbon marzipan I love. Icing danish liquorice cotton candy I love dragée.",
     categoryId: 1,
     category: {
       name: "globos",
@@ -112,6 +121,7 @@ const products = [
     id: 10,
     name: "Arco Globos Orgánico Pastel", 
     images:  ["https://http2.mlstatic.com/D_NQ_NP_903788-MLA51471805589_092022-O.webp"], 
+    detail: "Cupcake ipsum dolor sit amet jelly beans jujubes. I love cupcake cotton candy lollipop toffee tiramisu I love toffee sesame snaps. I love I love cupcake I love cake. Croissant jelly-o cupcake biscuit sweet gummies. Tart pastry cake danish pudding. Dragée lemon drops I love wafer gummi bears. Oat cake chocolate bar bonbon marzipan I love. Icing danish liquorice cotton candy I love dragée.",
     categoryId: 1,
     category: {
       name: "globos",
@@ -124,6 +134,7 @@ const products = [
     id: 11,
     name: "Banderin Guirnalda Colores Pasteles Feliz Cumple", 
     images:  ["https://http2.mlstatic.com/D_NQ_NP_884442-MLA47482230381_092021-O.webp"], 
+    detail: "Cupcake ipsum dolor sit amet jelly beans jujubes. I love cupcake cotton candy lollipop toffee tiramisu I love toffee sesame snaps. I love I love cupcake I love cake. Croissant jelly-o cupcake biscuit sweet gummies. Tart pastry cake danish pudding. Dragée lemon drops I love wafer gummi bears. Oat cake chocolate bar bonbon marzipan I love. Icing danish liquorice cotton candy I love dragée.",
     categoryId: 2,
     category: {
       name: "banderines",
@@ -137,6 +148,7 @@ const products = [
     id: 12,
     name: "Banderin Feliz Cumple Happy Birthday Rosa Gold Pastel", 
     images:  ["https://http2.mlstatic.com/D_NQ_NP_746524-MLA50804463946_072022-O.webp"], 
+    detail: "Cupcake ipsum dolor sit amet jelly beans jujubes. I love cupcake cotton candy lollipop toffee tiramisu I love toffee sesame snaps. I love I love cupcake I love cake. Croissant jelly-o cupcake biscuit sweet gummies. Tart pastry cake danish pudding. Dragée lemon drops I love wafer gummi bears. Oat cake chocolate bar bonbon marzipan I love. Icing danish liquorice cotton candy I love dragée.",
     categoryId: 2,
     category: {
       name: "banderines",
@@ -150,6 +162,7 @@ const products = [
     id: 13,
     name: "Trio Guirnaldas Baby Shower Personalizada Con Nombre", 
     images:  ["https://http2.mlstatic.com/D_NQ_NP_605522-MLA51118420713_082022-O.webp"], 
+    detail: "Cupcake ipsum dolor sit amet jelly beans jujubes. I love cupcake cotton candy lollipop toffee tiramisu I love toffee sesame snaps. I love I love cupcake I love cake. Croissant jelly-o cupcake biscuit sweet gummies. Tart pastry cake danish pudding. Dragée lemon drops I love wafer gummi bears. Oat cake chocolate bar bonbon marzipan I love. Icing danish liquorice cotton candy I love dragée.",
     categoryId: 2,
     category: {
       name: "banderines",
@@ -163,6 +176,7 @@ const products = [
     id: 14,
     name: " Trio De Guirnaldas Dinosaurios, Hojas Y Banderín Dinos", 
     images:  ["https://http2.mlstatic.com/D_NQ_NP_995443-MLA49400018138_032022-O.webp"], 
+    detail: "Cupcake ipsum dolor sit amet jelly beans jujubes. I love cupcake cotton candy lollipop toffee tiramisu I love toffee sesame snaps. I love I love cupcake I love cake. Croissant jelly-o cupcake biscuit sweet gummies. Tart pastry cake danish pudding. Dragée lemon drops I love wafer gummi bears. Oat cake chocolate bar bonbon marzipan I love. Icing danish liquorice cotton candy I love dragée.",
     categoryId: 2,
     category: {
       name: "banderines",
@@ -176,6 +190,7 @@ const products = [
     id: 15,
     name: "Banderin Guirnalda Argentina 2,80 Cm", 
     images:  ["https://http2.mlstatic.com/D_NQ_NP_902072-MLA52143980253_102022-O.webp"], 
+    detail: "Cupcake ipsum dolor sit amet jelly beans jujubes. I love cupcake cotton candy lollipop toffee tiramisu I love toffee sesame snaps. I love I love cupcake I love cake. Croissant jelly-o cupcake biscuit sweet gummies. Tart pastry cake danish pudding. Dragée lemon drops I love wafer gummi bears. Oat cake chocolate bar bonbon marzipan I love. Icing danish liquorice cotton candy I love dragée.",
     categoryId: 2,
     category: {
       name: "banderines",
@@ -189,6 +204,7 @@ const products = [
     id: 16,
     name: " Halloween Banderinnes Varios Diseños", 
     images:  ["https://http2.mlstatic.com/D_NQ_NP_779888-MLA51840252790_102022-O.webp"], 
+    detail: "Cupcake ipsum dolor sit amet jelly beans jujubes. I love cupcake cotton candy lollipop toffee tiramisu I love toffee sesame snaps. I love I love cupcake I love cake. Croissant jelly-o cupcake biscuit sweet gummies. Tart pastry cake danish pudding. Dragée lemon drops I love wafer gummi bears. Oat cake chocolate bar bonbon marzipan I love. Icing danish liquorice cotton candy I love dragée.",
     categoryId: 2,
     category: {
       name: "banderines",
@@ -202,6 +218,7 @@ const products = [
     id: 17,
     name: "Banderin De Cumpleaños Super Hero ", 
     images:  ["https://http2.mlstatic.com/D_NQ_NP_647528-MLA51722119440_092022-O.webp"], 
+    detail: "Cupcake ipsum dolor sit amet jelly beans jujubes. I love cupcake cotton candy lollipop toffee tiramisu I love toffee sesame snaps. I love I love cupcake I love cake. Croissant jelly-o cupcake biscuit sweet gummies. Tart pastry cake danish pudding. Dragée lemon drops I love wafer gummi bears. Oat cake chocolate bar bonbon marzipan I love. Icing danish liquorice cotton candy I love dragée.",
     categoryId: 2,
     category: {
       name: "banderines",
@@ -215,6 +232,7 @@ const products = [
     id: 18,
     name: "Banderin Cola De Sirena 1.60mts X 2u ", 
     images:  ["https://http2.mlstatic.com/D_NQ_NP_699249-MLA48707435352_122021-O.webp"], 
+    detail: "Cupcake ipsum dolor sit amet jelly beans jujubes. I love cupcake cotton candy lollipop toffee tiramisu I love toffee sesame snaps. I love I love cupcake I love cake. Croissant jelly-o cupcake biscuit sweet gummies. Tart pastry cake danish pudding. Dragée lemon drops I love wafer gummi bears. Oat cake chocolate bar bonbon marzipan I love. Icing danish liquorice cotton candy I love dragée.",
     categoryId: 2,
     category: {
       name: "banderines",
@@ -228,6 +246,7 @@ const products = [
     id: 19,
     name: " Banderín Feliz Cumpleaños - Buzz Lightyear", 
     images:  ["https://http2.mlstatic.com/D_NQ_NP_622177-MLA50346810598_062022-O.webp"], 
+    detail: "Cupcake ipsum dolor sit amet jelly beans jujubes. I love cupcake cotton candy lollipop toffee tiramisu I love toffee sesame snaps. I love I love cupcake I love cake. Croissant jelly-o cupcake biscuit sweet gummies. Tart pastry cake danish pudding. Dragée lemon drops I love wafer gummi bears. Oat cake chocolate bar bonbon marzipan I love. Icing danish liquorice cotton candy I love dragée.",
     categoryId: 2,
     category: {
       name: "banderines",
@@ -241,6 +260,7 @@ const products = [
     id: 20,
     name: "Banderin Plastico Calada Mexicano", 
     images:  ["https://http2.mlstatic.com/D_NQ_NP_614294-MLA47244657487_082021-O.webp"], 
+    detail: "Cupcake ipsum dolor sit amet jelly beans jujubes. I love cupcake cotton candy lollipop toffee tiramisu I love toffee sesame snaps. I love I love cupcake I love cake. Croissant jelly-o cupcake biscuit sweet gummies. Tart pastry cake danish pudding. Dragée lemon drops I love wafer gummi bears. Oat cake chocolate bar bonbon marzipan I love. Icing danish liquorice cotton candy I love dragée.",
     categoryId: 2,
     category: {
       name: "banderines",
@@ -254,6 +274,7 @@ const products = [
     id: 21,
     name: "Adorno Para Torta En Telgopor Y Goma Eva", 
     images:  ["https://http2.mlstatic.com/D_NQ_NP_780281-MLA46836670172_072021-O.webp"], 
+    detail: "Cupcake ipsum dolor sit amet jelly beans jujubes. I love cupcake cotton candy lollipop toffee tiramisu I love toffee sesame snaps. I love I love cupcake I love cake. Croissant jelly-o cupcake biscuit sweet gummies. Tart pastry cake danish pudding. Dragée lemon drops I love wafer gummi bears. Oat cake chocolate bar bonbon marzipan I love. Icing danish liquorice cotton candy I love dragée.",
     categoryId: 3,
     category: {
       name: "toppers",
@@ -267,6 +288,7 @@ const products = [
     id: 22,
     name: " Adorno Para Torta Cumple 5 Jugadores Futbol + Arco + Pelota", 
     images:  ["https://http2.mlstatic.com/D_NQ_NP_938388-MLA50987918410_082022-O.webp"], 
+    detail: "Cupcake ipsum dolor sit amet jelly beans jujubes. I love cupcake cotton candy lollipop toffee tiramisu I love toffee sesame snaps. I love I love cupcake I love cake. Croissant jelly-o cupcake biscuit sweet gummies. Tart pastry cake danish pudding. Dragée lemon drops I love wafer gummi bears. Oat cake chocolate bar bonbon marzipan I love. Icing danish liquorice cotton candy I love dragée.",
     categoryId: 3,
     category: {
       name: "toppers",
@@ -280,6 +302,7 @@ const products = [
     id: 23,
     name: "Adorno Para Torta Harry Potter + Vela + Bengala + Sticker", 
     images:  ["https://http2.mlstatic.com/D_NQ_NP_665895-MLA51066402002_082022-O.webp"], 
+    detail: "Cupcake ipsum dolor sit amet jelly beans jujubes. I love cupcake cotton candy lollipop toffee tiramisu I love toffee sesame snaps. I love I love cupcake I love cake. Croissant jelly-o cupcake biscuit sweet gummies. Tart pastry cake danish pudding. Dragée lemon drops I love wafer gummi bears. Oat cake chocolate bar bonbon marzipan I love. Icing danish liquorice cotton candy I love dragée.",
     categoryId: 3,
     category: {
       name: "toppers",
@@ -293,6 +316,7 @@ const products = [
     id: 24,
     name: " Adorno Para Torta River Plate + Bengala + Vela", 
     images:  ["https://http2.mlstatic.com/D_NQ_NP_814444-MLA51664303976_092022-O.webp"], 
+    detail: "Cupcake ipsum dolor sit amet jelly beans jujubes. I love cupcake cotton candy lollipop toffee tiramisu I love toffee sesame snaps. I love I love cupcake I love cake. Croissant jelly-o cupcake biscuit sweet gummies. Tart pastry cake danish pudding. Dragée lemon drops I love wafer gummi bears. Oat cake chocolate bar bonbon marzipan I love. Icing danish liquorice cotton candy I love dragée.",
     categoryId: 3,
     category: {
       name: "toppers",
@@ -306,6 +330,7 @@ const products = [
     id: 25,
     name: " Cake Topper Stranger Things Adorno Torta Cumpleaños", 
     images:  ["https://http2.mlstatic.com/D_NQ_NP_998575-MLA51874424221_102022-O.webp"], 
+    detail: "Cupcake ipsum dolor sit amet jelly beans jujubes. I love cupcake cotton candy lollipop toffee tiramisu I love toffee sesame snaps. I love I love cupcake I love cake. Croissant jelly-o cupcake biscuit sweet gummies. Tart pastry cake danish pudding. Dragée lemon drops I love wafer gummi bears. Oat cake chocolate bar bonbon marzipan I love. Icing danish liquorice cotton candy I love dragée.",
     categoryId: 3,
     category: {
       name: "toppers",
@@ -319,6 +344,7 @@ const products = [
     id: 26,
     name: "Cake Topper Bluey Adorno Torta Cumpleaños", 
     images:  ["https://http2.mlstatic.com/D_NQ_NP_754815-MLA50836471343_072022-O.webp"], 
+    detail: "Cupcake ipsum dolor sit amet jelly beans jujubes. I love cupcake cotton candy lollipop toffee tiramisu I love toffee sesame snaps. I love I love cupcake I love cake. Croissant jelly-o cupcake biscuit sweet gummies. Tart pastry cake danish pudding. Dragée lemon drops I love wafer gummi bears. Oat cake chocolate bar bonbon marzipan I love. Icing danish liquorice cotton candy I love dragée.",
     categoryId: 3,
     category: {
       name: "toppers",
@@ -332,6 +358,7 @@ const products = [
     id: 27,
     name: "Adorno Para Torta Con Luz Mickey Mouse", 
     images:  ["https://http2.mlstatic.com/D_NQ_NP_747270-MLA47168603107_082021-O.webp"], 
+    detail: "Cupcake ipsum dolor sit amet jelly beans jujubes. I love cupcake cotton candy lollipop toffee tiramisu I love toffee sesame snaps. I love I love cupcake I love cake. Croissant jelly-o cupcake biscuit sweet gummies. Tart pastry cake danish pudding. Dragée lemon drops I love wafer gummi bears. Oat cake chocolate bar bonbon marzipan I love. Icing danish liquorice cotton candy I love dragée.",
     categoryId: 3,
     category: {
       name: "toppers",
@@ -345,6 +372,7 @@ const products = [
     id: 28,
     name: "Adorno Para Torta De Unicornios", 
     images:  ["https://http2.mlstatic.com/D_NQ_NP_726052-MLA49868463593_052022-O.webp"], 
+    detail: "Cupcake ipsum dolor sit amet jelly beans jujubes. I love cupcake cotton candy lollipop toffee tiramisu I love toffee sesame snaps. I love I love cupcake I love cake. Croissant jelly-o cupcake biscuit sweet gummies. Tart pastry cake danish pudding. Dragée lemon drops I love wafer gummi bears. Oat cake chocolate bar bonbon marzipan I love. Icing danish liquorice cotton candy I love dragée.",
     categoryId: 3,
     category: {
       name: "toppers",
@@ -358,6 +386,7 @@ const products = [
     id: 29,
     name: "Mariposa Para Torta Topper x6u rosa Gold Plata Dorado", 
     images:  ["https://http2.mlstatic.com/D_NQ_NP_667238-MLA49804447103_042022-O.webp"], 
+    detail: "Cupcake ipsum dolor sit amet jelly beans jujubes. I love cupcake cotton candy lollipop toffee tiramisu I love toffee sesame snaps. I love I love cupcake I love cake. Croissant jelly-o cupcake biscuit sweet gummies. Tart pastry cake danish pudding. Dragée lemon drops I love wafer gummi bears. Oat cake chocolate bar bonbon marzipan I love. Icing danish liquorice cotton candy I love dragée.",
     categoryId: 3,
     category: {
       name: "toppers",
@@ -371,6 +400,7 @@ const products = [
     id: 30,
     name: "Kit Topper Globos 5 Decoracion Torta Chrome Látex Cristal", 
     images:  ["https://http2.mlstatic.com/D_NQ_NP_899400-MLA49421565107_032022-O.webp"], 
+    detail: "Cupcake ipsum dolor sit amet jelly beans jujubes. I love cupcake cotton candy lollipop toffee tiramisu I love toffee sesame snaps. I love I love cupcake I love cake. Croissant jelly-o cupcake biscuit sweet gummies. Tart pastry cake danish pudding. Dragée lemon drops I love wafer gummi bears. Oat cake chocolate bar bonbon marzipan I love. Icing danish liquorice cotton candy I love dragée.",
     categoryId: 3,
     category: {
       name: "toppers",
@@ -384,6 +414,7 @@ const products = [
     id: 31,
     name: "Velas Finitas Gibreadas Brillo X12u Varios Colores", 
     images:  ["https://http2.mlstatic.com/D_NQ_NP_662924-MLA46045201646_052021-O.webp"],
+    detail: "Cupcake ipsum dolor sit amet jelly beans jujubes. I love cupcake cotton candy lollipop toffee tiramisu I love toffee sesame snaps. I love I love cupcake I love cake. Croissant jelly-o cupcake biscuit sweet gummies. Tart pastry cake danish pudding. Dragée lemon drops I love wafer gummi bears. Oat cake chocolate bar bonbon marzipan I love. Icing danish liquorice cotton candy I love dragée.",
     categoryId: 4,
     category: {
       name: "velasYbengalas",
@@ -397,6 +428,7 @@ const products = [
     id: 32,
     name: "Vela Numérica Plata", 
     images:  ["https://http2.mlstatic.com/D_NQ_NP_954613-MLA49747561018_042022-O.webp"],
+    detail: "Cupcake ipsum dolor sit amet jelly beans jujubes. I love cupcake cotton candy lollipop toffee tiramisu I love toffee sesame snaps. I love I love cupcake I love cake. Croissant jelly-o cupcake biscuit sweet gummies. Tart pastry cake danish pudding. Dragée lemon drops I love wafer gummi bears. Oat cake chocolate bar bonbon marzipan I love. Icing danish liquorice cotton candy I love dragée.",
     categoryId: 4,
     category: {
       name: "velasYbengalas",
@@ -410,6 +442,7 @@ const products = [
     id: 33,
     name: "Velas Finitas 17cm Blister x24u Varios Colores", 
     images:  ["https://http2.mlstatic.com/D_NQ_NP_708846-MLA45631813218_042021-O.webp"],
+    detail: "Cupcake ipsum dolor sit amet jelly beans jujubes. I love cupcake cotton candy lollipop toffee tiramisu I love toffee sesame snaps. I love I love cupcake I love cake. Croissant jelly-o cupcake biscuit sweet gummies. Tart pastry cake danish pudding. Dragée lemon drops I love wafer gummi bears. Oat cake chocolate bar bonbon marzipan I love. Icing danish liquorice cotton candy I love dragée.",
     categoryId: 4,
     category: {
       name: "velasYbengalas",
@@ -423,6 +456,7 @@ const products = [
     id: 34,
     name: "Velas Sparkles Números Azul Cumpleaños", 
     images:  ["https://http2.mlstatic.com/D_NQ_NP_856119-MLA46013939039_052021-O.webp"],
+    detail: "Cupcake ipsum dolor sit amet jelly beans jujubes. I love cupcake cotton candy lollipop toffee tiramisu I love toffee sesame snaps. I love I love cupcake I love cake. Croissant jelly-o cupcake biscuit sweet gummies. Tart pastry cake danish pudding. Dragée lemon drops I love wafer gummi bears. Oat cake chocolate bar bonbon marzipan I love. Icing danish liquorice cotton candy I love dragée.",
     categoryId: 4,
     category: {
       name: "velasYbengalas",
@@ -436,6 +470,7 @@ const products = [
     id: 35,
     name: "Pack De 4 bengalas colores varios", 
     images:  ["https://http2.mlstatic.com/D_NQ_NP_800368-MLA43453214518_092020-O.webp"],
+    detail: "Cupcake ipsum dolor sit amet jelly beans jujubes. I love cupcake cotton candy lollipop toffee tiramisu I love toffee sesame snaps. I love I love cupcake I love cake. Croissant jelly-o cupcake biscuit sweet gummies. Tart pastry cake danish pudding. Dragée lemon drops I love wafer gummi bears. Oat cake chocolate bar bonbon marzipan I love. Icing danish liquorice cotton candy I love dragée.",
     categoryId: 4,
     category: {
       name: "velasYbengalas",
@@ -449,6 +484,7 @@ const products = [
     id: 36,
     name: "Vela Numero Gibré Dorado-plateado-rose-celeste", 
     images:  ["https://http2.mlstatic.com/D_NQ_NP_621385-MLA49806563145_042022-O.webp"],
+    detail: "Cupcake ipsum dolor sit amet jelly beans jujubes. I love cupcake cotton candy lollipop toffee tiramisu I love toffee sesame snaps. I love I love cupcake I love cake. Croissant jelly-o cupcake biscuit sweet gummies. Tart pastry cake danish pudding. Dragée lemon drops I love wafer gummi bears. Oat cake chocolate bar bonbon marzipan I love. Icing danish liquorice cotton candy I love dragée.",
     categoryId: 4,
     category: {
       name: "velasYbengalas",
@@ -462,6 +498,7 @@ const products = [
     id: 37,
     name: "Pack Set Velas Magicas Cumpleaños X10u Multicolor", 
     images: ["https://http2.mlstatic.com/D_NQ_NP_833207-MLA50191919630_062022-O.webp"],
+    detail: "Cupcake ipsum dolor sit amet jelly beans jujubes. I love cupcake cotton candy lollipop toffee tiramisu I love toffee sesame snaps. I love I love cupcake I love cake. Croissant jelly-o cupcake biscuit sweet gummies. Tart pastry cake danish pudding. Dragée lemon drops I love wafer gummi bears. Oat cake chocolate bar bonbon marzipan I love. Icing danish liquorice cotton candy I love dragée.",
     categoryId: 4,
     category: {
       name: "velasYbengalas",
@@ -475,6 +512,7 @@ const products = [
     id: 38,
     name: "Pack Velas Corazon Y Estrella", 
     images:  ["https://http2.mlstatic.com/D_NQ_NP_720772-MLA49954587583_052022-O.webp"],
+    detail: "Cupcake ipsum dolor sit amet jelly beans jujubes. I love cupcake cotton candy lollipop toffee tiramisu I love toffee sesame snaps. I love I love cupcake I love cake. Croissant jelly-o cupcake biscuit sweet gummies. Tart pastry cake danish pudding. Dragée lemon drops I love wafer gummi bears. Oat cake chocolate bar bonbon marzipan I love. Icing danish liquorice cotton candy I love dragée.",
     categoryId: 4,
     category: {
       name: "velasYbengalas",
@@ -488,6 +526,7 @@ const products = [
     id: 39,
     name: "Vela Dorada Números N°4 (12 Cm.) X1u", 
     images:  ["https://http2.mlstatic.com/D_NQ_NP_713666-MLA49983098758_052022-O.webp"],
+    detail: "Cupcake ipsum dolor sit amet jelly beans jujubes. I love cupcake cotton candy lollipop toffee tiramisu I love toffee sesame snaps. I love I love cupcake I love cake. Croissant jelly-o cupcake biscuit sweet gummies. Tart pastry cake danish pudding. Dragée lemon drops I love wafer gummi bears. Oat cake chocolate bar bonbon marzipan I love. Icing danish liquorice cotton candy I love dragée.",
     categoryId: 4,
     category: {
       name: "velasYbengalas",
@@ -501,6 +540,7 @@ const products = [
     id: 40,
     name: "Vela Flor Musical Rosa", 
     images:  ["https://http2.mlstatic.com/D_NQ_NP_906745-MLA31113132037_062019-O.webp"],
+    detail: "Cupcake ipsum dolor sit amet jelly beans jujubes. I love cupcake cotton candy lollipop toffee tiramisu I love toffee sesame snaps. I love I love cupcake I love cake. Croissant jelly-o cupcake biscuit sweet gummies. Tart pastry cake danish pudding. Dragée lemon drops I love wafer gummi bears. Oat cake chocolate bar bonbon marzipan I love. Icing danish liquorice cotton candy I love dragée.",
     categoryId: 4,
     category: {
       name: "velasYbengalas",

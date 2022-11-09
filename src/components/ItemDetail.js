@@ -16,6 +16,7 @@ export const ItemDetail = ({ item }) => {
           <Col xs={12} md={4} sm={6} lg={4}>
             <Card.Body>
               <Card.Title>{item.name}</Card.Title>
+              <Card.Text className="detail">{item.detail}</Card.Text>
               <Card.Text className="stock">Stock: {item.stock} u.</Card.Text>
               <Card.Text className="precio"> Precio: {item.price}</Card.Text>
               <ItemCount/>
