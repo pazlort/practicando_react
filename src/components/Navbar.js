@@ -16,8 +16,8 @@ function Navbar() {
             </Link>
           </NavbarBootstrap.Brand>
           <CartWidget/>
-          <NavbarBootstrap.Collapse id="basic-Navbar-nav" >
-            <Nav className="me-auto text-center nabvarMenu">
+          <NavbarBootstrap.Collapse id="basic-Navbar-nav nabvarMenu" >
+            <Nav className="me-auto text-center">
               <Link to={`/category/4`} className="linksNavbar">Velas y bengalas</Link>
               <Link to={`/category/1`} className="linksNavbar">Globos</Link>
               <Link to={`/category/2`} className="linksNavbar">Banderines</Link>

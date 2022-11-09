@@ -9,16 +9,13 @@ a{
   color: #ffa69e;
   text-transform: uppercase;
   font-size: 1em;
-};
+  margin: 15px;
+  @media (max-width: 991px) {
+    margin: 1px
+  }};
 
 .linksNavbar:focus, .linksNavbar:hover {
   color: #5e6472;
-};
-
-.nabvarMenu{
-  display:flex;
-  align-items: center;
-  justify-content: space-between;
 };
 
 //CartWidget
@@ -99,6 +96,7 @@ a{
   --bs-btn-disabled-bg: #ffa69e;
   --bs-btn-disabled-border-color: #ffa69e;
 };
+
 .botonCount:hover{
   font-weight: bold;
   font-size: medium;
@@ -126,13 +124,13 @@ a{
   color: #5e6472;
   font-weight: bold;
   font-size: x-large;
-}
+};
 
 .stockProducto{
   font-size: small;
-}
+};
 
 .precioProducto{
   font-weight: bold;
   font-size: large;
-}
+};
