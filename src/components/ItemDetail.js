@@ -7,18 +7,18 @@ import Row from "react-bootstrap/Row";
 
 export const ItemDetail = ({ item }) => {
   return (
-    <Card className="detalleProducto">
+    <Card>
       <Container>
         <Row>
-          <Col xs={12} md={4} sm={6} lg={8}>
+          <Col xs={12} md={6} sm={6} lg={6}>
             <Card.Img variant="top" className="imagenProduct" src={item.images} />
           </Col>
-          <Col xs={12} md={4} sm={6} lg={4}>
+          <Col xs={12} md={6} sm={6} lg={6}>
             <Card.Body>
-              <Card.Title>{item.name}</Card.Title>
-              <Card.Text className="detail">{item.detail}</Card.Text>
-              <Card.Text className="stock">Stock: {item.stock} u.</Card.Text>
-              <Card.Text className="precio"> Precio: {item.price}</Card.Text>
+              <Card.Title className="tituloProductoDetalle">{item.name}</Card.Title>
+              <Card.Text> {item.detail}</Card.Text>
+              <Card.Text className="stockProducto"> Stock: {item.stock} u.</Card.Text>
+              <Card.Text className="precioProducto"> Precio: {item.price}</Card.Text>
               <ItemCount/>
             </Card.Body>
           </Col>
