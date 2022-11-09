@@ -7,7 +7,7 @@ import Row from "react-bootstrap/Row";
 
 export const ItemDetail = ({ item }) => {
   return (
-    <Card key={item.id} className="detalleProducto">
+    <Card className="detalleProducto">
       <Container>
         <Row>
           <Col xs={12} md={4} sm={6} lg={8}>

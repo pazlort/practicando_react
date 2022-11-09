@@ -17,12 +17,12 @@ const ItemListContainer = () => {
         }))
         .then(result => setProductos(result))
         .catch(err => console.log(err))
-    }, [productos]);
+    }, [idCategory]); // pase idCategory porque productos me hacia un loop infinito y la terminal me tiraba un warning que se habia perdido la dependenci idCategory
 
     return (
         <Container className="containerProductos">
             <Row>
-                <ItemList product={productos}/>
+                <ItemList products={productos}/>
             </Row>
         </Container>
     );
