@@ -4,6 +4,8 @@ import ItemCount from "../containers/ItemCount";
 import Col from "react-bootstrap/Col";
 import { Container } from "react-bootstrap";
 import Row from "react-bootstrap/Row";
+import Button from 'react-bootstrap/Button';
+import { Link } from "react-router-dom";
 
 export const ItemDetail = ({ item }) => {
   return (
@@ -20,6 +22,7 @@ export const ItemDetail = ({ item }) => {
               <Card.Text className="stockProducto"> Stock: {item.stock} u.</Card.Text>
               <Card.Text className="precioProducto"> Precio: {item.price}</Card.Text>
               <ItemCount/>
+              <Link to={'/cart'}><Button variant="outline-primary">Agregar al carrito</Button></Link>
             </Card.Body>
           </Col>
         </Row>
