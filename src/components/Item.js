@@ -14,7 +14,7 @@ const Item = ({ id, title, stock, price, thumbnail }) => {
             <Card.Body >
               <Card.Title className="tituloProducto">{title}</Card.Title>
               <Card.Text className="stock">Stock: {stock} u.</Card.Text>
-              <Card.Text className="precio"> Precio: {price}</Card.Text>
+              <Card.Text className="precio"> Precio: {price} ARS</Card.Text>
             </Card.Body>
         </Card>
       </Link>

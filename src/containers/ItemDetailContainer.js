@@ -17,6 +17,7 @@ const ItemDetailContainer = () => {
     .catch(err => console.log(err))
   }, [idItem]);
 
+
   return (
     <ItemDetail item={detalle}/>
   );
