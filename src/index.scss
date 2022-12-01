@@ -30,9 +30,10 @@ a{
   --bs-btn-disabled-color: #ffa69e;
 };
 
-.bi-1-circle-fill{
-  color: #aed9e0;
+.badge{
+  background: #aed9e0 !important;
   vertical-align:super;
+  --bs-badge-border-radius: 50%;
 };
 
 .bg-light {
@@ -198,4 +199,5 @@ a{
 }
 
 .delete-product{
+  
 }

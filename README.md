@@ -1,3 +1,9 @@
+instale --> https://react-icons.github.io/react-icons/icons?name=bs
+npm install react-icons --save
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

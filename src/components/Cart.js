@@ -5,7 +5,7 @@ import { CartContext } from "./CartContext";
 import Card from 'react-bootstrap/Card';
 
 const Cart = () => {
-  const {cartList, removeList, deleteItem} = useContext(CartContext);
+  const {cartList, removeList, deleteItem, precioTotalPorItem, subtotalCompra, precioTotalCompra} = useContext(CartContext);
 
   return (
     <>
@@ -15,21 +15,32 @@ const Cart = () => {
 
         {
           cartList.length === 0
-          ? <p>No hay productos en el carrito</p>
+          ? <h5>No hay productos en el carrito</h5>
           : cartList.map(item =>
             <Card className="card-cart" key={item.id}>
-              {/* <Link to={`/item/${item.id}`}> */}
                 <Card.Img src={item.images} className="img-cart" />
-              {/* </Link> */}
             <Card.Body>
-              <Card.Title>{item.name}</Card.Title>
-              <Card.Subtitle className="mb-2 text-muted">{item.price} ARS c/u</Card.Subtitle>
-              <Card.Subtitle className="mb-2 text-muted">{item.cantidadPedida} item(s) / {item.precioTotal} ARS</Card.Subtitle>
+               <Card.Title>{item.name}</Card.Title>
+              <Card.Subtitle className="mb-2 text-muted">{item.cantidadPedida} item(s) / {item.price} ARS. c/u</Card.Subtitle>
+              <Card.Subtitle className="mb-2 text-muted">{precioTotalPorItem(item.id)} ARS.</Card.Subtitle>
             </Card.Body>
-            <Button variant="outline-primary" className="delete-product" onClick={() => deleteItem(item.id)}>Borrar</Button>
+             <Button variant="outline-primary" className="delete-product" onClick={() => deleteItem(item.id)}>Borrar</Button>
           </Card>
           )
         }
+        {
+            cartList.length > 0 &&
+          <Card>
+          <Card.Header as="h5">RESUMEN DE SU COMPRA</Card.Header>
+          <Card.Body>
+            <Card.Text>Subtotal: {subtotalCompra()} ARS.</Card.Text>
+            <Card.Text>Descuentos: 0 ARS.</Card.Text>
+            <Card.Title>Total a pagar: {precioTotalCompra()} ARS.</Card.Title>
+            <Button variant="outline-primary">Ir a pagar</Button>
+          </Card.Body>
+          </Card>
+        }
+
     </>
   );
 };

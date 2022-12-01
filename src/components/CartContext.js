@@ -26,7 +26,6 @@ const CartContextProvider = (prop) =>{
             ])
         }else{
             findProduct.cantidadPedida += cantidad;
-            findProduct.precioTotal = product.price * findProduct.cantidadPedida;
             setCartList([
                 ...cartList,
             ]);
@@ -44,8 +43,36 @@ const CartContextProvider = (prop) =>{
         setCartList(deleteProduct);
     }
 
+    const calcItemsQty=() => {
+        const arrayCantidadTotal = cartList.map(product => product.cantidadPedida)
+        return arrayCantidadTotal.reduce(((accumulator, currentValue) => accumulator + currentValue),0);
+    }
+
+    const precioTotalPorItem = (id)=> {
+        const idItem = cartList.map(product => product.id).indexOf(id)
+        return cartList[idItem].price * cartList[idItem].cantidadPedida
+    }
+
+    const subtotalCompra =()=>{
+        let preciosPorProductos = cartList.map(product => precioTotalPorItem(product.id));
+        return preciosPorProductos.reduce(((accumulator, currentValue) => accumulator + currentValue),0);
+    }
+
+    const precioTotalCompra = () => {
+        return subtotalCompra()
+    }
+
     return(
-        <CartContext.Provider value={{cartList, addToCart, removeList, deleteItem}}>
+        <CartContext.Provider value={{
+            cartList, 
+            addToCart, 
+            removeList, 
+            deleteItem, 
+            calcItemsQty,
+            precioTotalPorItem,
+            subtotalCompra,
+            precioTotalCompra,
+        }}>
             {prop.children}
         </CartContext.Provider>
     )
