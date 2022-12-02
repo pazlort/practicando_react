@@ -3,9 +3,44 @@ import { Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { CartContext } from "./CartContext";
 import Card from 'react-bootstrap/Card';
+import { collection, serverTimestamp, doc, setDoc } from "firebase/firestore";
+import {db} from "../utils/firebaseConfig"
 
 const Cart = () => {
   const {cartList, removeList, deleteItem, precioTotalPorItem, subtotalCompra, precioTotalCompra} = useContext(CartContext);
+
+  const createOrder = () => {
+    let order ={
+      buyer: {
+        name: 'Paz María Grecht Lort',
+        email: 'pazmarialort@gmail.com',
+        phone: '123456789',
+      },
+      date: serverTimestamp(),
+      items: cartList.map(item => ({
+        id: item.id,
+        price: item.price,
+        title: item.name,
+        cantidadPedida: item.cantidadPedida,
+      })
+
+      ),
+      total: precioTotalCompra(),
+    } 
+
+    const createOrderInFirestore = async () => {
+      const newOrder = doc(collection(db, 'orders'));
+      await setDoc(newOrder, order);
+      return newOrder
+    }
+
+    createOrderInFirestore()
+      .then(res => {
+        alert('Order ID =' + res.id)
+        removeList()
+      })
+      .catch(err => console.log(err))
+  }
 
   return (
     <>
@@ -36,7 +71,7 @@ const Cart = () => {
             <Card.Text>Subtotal: {subtotalCompra()} ARS.</Card.Text>
             <Card.Text>Descuentos: 0 ARS.</Card.Text>
             <Card.Title>Total a pagar: {precioTotalCompra()} ARS.</Card.Title>
-            <Button variant="outline-primary">Ir a pagar</Button>
+            <Button variant="outline-primary" onClick={createOrder}>Ir a pagar</Button>
           </Card.Body>
           </Card>
         }
