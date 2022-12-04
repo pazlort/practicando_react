@@ -68,7 +68,7 @@ const Cart = () => {
               <Card.Subtitle className="mb-2 text-muted">{item.cantidadPedida} item(s) / {item.price} ARS. c/u</Card.Subtitle>
               <Card.Subtitle className="mb-2 text-muted">{precioTotalPorItem(item.id)} ARS.</Card.Subtitle>
             </Card.Body>
-            <Button variant="outline-primary" className="delete-product" onClick={() => deleteItem(item.id)}>Borrar</Button>
+            <Button variant="outline-primary" onClick={() => deleteItem(item.id)}>Borrar</Button>
           </Card>
         )
       }

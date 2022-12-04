@@ -13,10 +13,8 @@ const Item = ({ id, title, stock, price, thumbnail }) => {
           </div>
             <Card.Body >
               <Card.Title className="tituloProducto">{title}</Card.Title>
-              <div className="divListProducts">
               <Card.Text className="stock">Stock: {stock} u.</Card.Text>
               <Card.Text className="precio"> Precio: {price} ARS</Card.Text>
-              </div>
             </Card.Body>
         </Card>
       </Link>
