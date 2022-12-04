@@ -53,6 +53,7 @@ a{
 .stock{
   color: #000;
   font-size: small;
+  margin-bottom: auto;
 };
 
 .precio{
@@ -67,10 +68,9 @@ a{
 };
 
 .cardImagenProducto{
-  display: flex;
   justify-content: center;
   align-items: center;
-  height: 300px;
+  //height: 300px;
   img{
     max-height: 300px;
   };
@@ -79,6 +79,10 @@ a{
 .card-img, .card-img-top, .card-img-bottom {
   max-width: 100%;
 };
+
+.divListProducts{
+ // margin-top: 20%;
+}
 
 //boton count
 .botonCount{

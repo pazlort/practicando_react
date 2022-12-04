@@ -1,10 +1,10 @@
-instale --> https://react-icons.github.io/react-icons/icons?name=bs
-npm install react-icons --save
+bootstrap-icons
 
 npm install firebase
 node
 reactbootstrap
-
+react dom
+sass
 
 
 
