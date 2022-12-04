@@ -1,81 +1,89 @@
-bootstrap-icons
+# <span style="font-size:2em; color:#ffa69e">***DECONFETTI COTILLÓN***</span>
 
-npm install firebase
-node
-reactbootstrap
-react dom
-sass
+Trabajo final de Paz María Grecht Lort del curso de React.js de CoderHouse.
+El objetivo es crear un e-commerce con React.js.
+<br/>
+<br/>
+<br/>
 
+  # ***Comenzando*** 🚀
 
+## **Clona el repositorio**
 
-# Getting Started with Create React App
+Desde tu consola ejecuta este comando y se clonara el proyecto en la carpeta seleccionada.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+    git clone https://github.com/pazlort/GrechttLortTpFinal.git
+<br/>
 
-## Available Scripts
+## **Intalar NPM**
 
-In the project directory, you can run:
+Desde tu consola ingresa **npm install** para intalar el proyecto y sus dependencias.
+<br/>
+<br/>
 
-### `npm start`
+## **Correr la app en modo desarrollo**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Desde tu consola ingresa **npm start** correr el proyecto y verlo en el browser.
+O ingresa al siguiente link despues de iniciar el proyecto [http://localhost:3000](http://localhost:3000)
+<br/>
+<br/>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# ***Creación del proyecto***  🔧
+## **El proyecto fue creado con Create React App**
 
-### `npm test`
+_Para crear un proyecto como este con Create React App_
+Ejecutar el siguiente comando en tu consola
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    npx create-react-app my-app
+<br/>
 
-### `npm run build`
+## **Dependencias**
+_Aqui todas las dependencias instaladas para realizar el proyecto_
+<br/>
+<br/>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### **Rutas**
+_Utilice React Router_
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    npm i react-router-dom
+<br/>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### **Base de datos**
+_Utilice Firebase de Google según lo solicitado en las consignas_
 
-### `npm run eject`
+    npm install firebase
+<br/>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### **Diseño**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### *React Booststrap*
+    npm install react-bootstrap bootstrap
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+#### *Bootstrap Icons*
+    npm i bootstrap-icons
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+#### _SASS_
+    npm install sass
 
-## Learn More
+<br/>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### **Color Reference**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+| Color             | Hex                                                                |
+| ----------------- | ------------------------------------------------------------------ |
+| Rosa | ![#ffa69e](https://via.placeholder.com/10/ffa69e?text=+) #ffa69e |
+| Celeste | ![#aed9e0](https://via.placeholder.com/10/aed9e0?text=+) #aed9e0 |
+| Verde | ![#b8f2e6](https://via.placeholder.com/10/b8f2e6?text=+) #b8f2e6 |
+| Gris | ![#5e6472](https://via.placeholder.com/10/5e6472?text=+) #5e6472 |
+<br/>
 
-### Code Splitting
+### **Logo**
+<div>
+    <p style = 'text-align:center;'>
+        <img src="https://firebasestorage.googleapis.com/v0/b/tp-final-coder.appspot.com/o/logo.png?alt=media&token=6e04de66-e43f-4ccc-817f-ec2f0ae300d4" width="300px">
+    </p>
+    </div>
+<br/>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# TpFinalCoderHouseGrechtLort
+ # **Autores** ✒️
+con ❤️ por [Paz María Grecht Lort](https://github.com/Villanuevand) 😊
