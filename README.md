@@ -86,4 +86,4 @@ _Utilice Firebase de Google según lo solicitado en las consignas_
 <br/>
 
  # **Autores** ✒️
-con ❤️ por [Paz María Grecht Lort](https://github.com/Villanuevand) 😊
+con ❤️ por [Paz María Grecht Lort](https://github.com/pazlort) 😊
